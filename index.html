@@ -68,33 +68,60 @@
         <p id="card-type"></p>
     </aside>
       <!-- Container Right -->
-      <section class="container__right">
-        <div class="card-box__container">
-            <div class="card-box framed" id="computer-cards"></div>
-  
-            <div class="card-versus">
+      <section class="container__right" role="region" aria-labelledby="gameBoardTitle">
+        
+        <article class="card-box__container" aria-label="Campo de batalha">
+          <!-- Cartas do Computador -->
+          <div class="card-box framed" 
+               id="computer-cards"         
+               role="grid"
+               aria-label="Cartas do oponente">
+          </div>
+          <!-- Área de Versus -->
+          <div class="card-versus" role="status" aria-live="polite">
               <div class="versus-top">
-                <div class="card-infield">
-                  <img id="player-field-card" alt="" height="180px" width="125px">
+                <!-- Campo do Jogador -->
+                <div class="card-infield" role="img" aria-labelledby="playerCardDesc">
+                  <img id="player-field-card" 
+                       alt="Carta do jogador em campo"
+                       aria-describedby="playerCardDetails"
+                       height="180" width="125">
                 </div>
-  
-                  <img src="./src/assets/icons/millenium2.png" alt="" height="100px">
-  
-                <div class="card-infield">
-                  <img id="computer-field-card" alt="" height="180px" width="125px">
+                  <!-- Elemento Decorativo -->
+                  <img src="./src/assets/icons/millenium2.png"
+                  alt="Ícone do Millennium Puzzle" 
+                  height="100"
+                  role="img"
+                  aria-hidden="true">
+                <!-- Campo do Computador -->
+                <div class="card-infield" role="img" aria-labelledby="computerCardDesc">
+                  <img id="computer-field-card"
+                       alt="Carta do oponente em campo" 
+                       height="180" 
+                       width="125"
+                       aria-describedby="computerCardDetails">
                 </div>
               </div>
-  
+
+              <!-- Controle de Duelo -->
               <div class="versus-bottom">
                 <button
                 id="next-duel"
                 class="rpgui-button"
+                role="button"
+                aria-label="Próximo duelo - Reiniciar batalha"
+                data-js="resetDuel"
                 onclick="resetDuel()">GANHOU</button>
               </div>
             </div>
-      
-            <div class="card-box framed" id="player-cards"></div>
-        </div>
+            
+            <!-- Cartas do Jogador -->
+            <div class="card-box framed" 
+                 id="player-cards"
+                 role="grid"
+                 aria-label="Suas cartas">
+            </div>
+        </article>
       </secion>
   </main>
 
