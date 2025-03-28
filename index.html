@@ -53,17 +53,20 @@
   <!-- Container -->
   <main class="container">
     <!-- Container left -->
-    <div class="container__left framed-golden-2">
-      <div class="score_box frame">
+    <aside class="container__left framed-golden-2" aria-labelledby="game-panel">
+      <div class="score_box frame" role="status" aria-live="polite">
         <span id="score_points">Win : 0 | Lose: 0</span>
       </div>
-      <div class="menu_avatar">
-        <img id="card_image">
-      </div>
-      <div class="card_details frame">
+      <figure class="menu_avatar">
+        <img id="card_image"           
+        alt="Imagem da carta selecionada" 
+        role="img"
+        aria-describedby="card-details">
+      </figure>
+      <div class="card_details frame" role="region" aria-live="polite">
         <p id="card-name"></p>
         <p id="card-type"></p>
-      </div>
+      </aside>
   </main>
 
 </body>
