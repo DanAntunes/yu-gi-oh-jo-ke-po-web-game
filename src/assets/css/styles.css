@@ -1,14 +1,8 @@
 @import url(./styles/main.css);
-#player-field-card {
-  height: 180px;
-  width: 125px ;
-}
+@import url(./components/card.css);
+@import url(./components/buttons.css);
+@import url(./components/containers_and_frames.css);
+@import url(./components/cursor.css);
 
-#computer-field-card{
-  height: 180px;
-  width: 125px ;
-}
 
-.millenium2 {
-  height: 100px;
-}
+
