@@ -13,7 +13,7 @@
 
   /* background */
   /* biome-ignore lint/suspicious/noShorthandPropertyOverrides: <explanation> */
-    background: url("../assets/rpg/button.png") no-repeat no-repeat;
+    background: url("../../images/rpg/button.png") no-repeat no-repeat;
   background-clip: padding-box;
   background-origin: padding-box;
   background-position: center;
@@ -36,13 +36,13 @@
 /* button hover */
 .rpgui-button.hover,
 .rpgui-button:hover {
-  background-image: url("../assets/rpg/button-hover.png");
+  background-image: url("../../images/rpg/button-hover.png");
 }
 
 /* button clicked */
 .rpgui-button.down,
 .rpgui-button:active {
-  background-image: url("../assets/rpg/button-down.png");
+  background-image: url("../../images/rpg/button-down.png");
 }
 
 /* golden button stuff */
@@ -61,7 +61,7 @@
 
   /* background */
   /* biome-ignore lint/suspicious/noShorthandPropertyOverrides: <explanation> */
-    background: url("../assets/rpg/button-golden.png") no-repeat no-repeat;
+    background: url("../../images/rpg/button-golden.png") no-repeat no-repeat;
   background-clip: padding-box;
   background-origin: padding-box;
   background-position: center;
@@ -83,13 +83,13 @@
 /* button hover */
 .rpgui-button.golden.hover,
 .rpgui-button.golden:hover {
-  background-image: url("../assets/rpg/button-golden-hover.png");
+  background-image: url("../../images/rpg/button-golden-hover.png");
 }
 
 /* button clicked */
 .rpgui-button.golden.down,
 .rpgui-button.golden:active {
-  background-image: url("../assets/rpg/button-golden-down.png");
+  background-image: url("../../images/rpg/button-golden-down.png");
 }
 
 .rpgui-button.golden:before {
@@ -99,7 +99,7 @@
   width: 34px;
   display: block;
   height: 110%;
-  background: transparent url("../assets/rpg/button-golden-left.png") no-repeat
+  background: transparent url("../../images/rpg/button-golden-left.png") no-repeat
     right center;
   background-size: 100% 100%;
   margin: 0 0 0 0;
@@ -115,7 +115,7 @@
   content: "";
   width: 34px;
   height: 110%;
-  background: transparent url("../assets/rpg/button-golden-right.png") no-repeat
+  background: transparent url("../../images/rpg/button-golden-right.png") no-repeat
     left center;
   background-size: 100% 100%;
   margin: 0 0 0 0;
