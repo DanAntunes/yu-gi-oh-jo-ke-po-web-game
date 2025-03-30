@@ -1,4 +1,7 @@
+@import url(./styles/reset.css);
 @import url(./styles/main.css);
+@import url(./styles/background.css);
+@import url(./styles/aside.css);
 @import url(./components/card.css);
 @import url(./components/buttons.css);
 @import url(./components/containers_and_frames.css);
