@@ -29,7 +29,7 @@ const playerSides = {
   computer: 'computer-cards'
 };
 
-const pathImages = '../../assets/images/icons/'
+const pathImages = './src/assets/image/icons/'
 
 const cardData = [
   {
@@ -66,7 +66,7 @@ async function getRandomCardId() {
 async function createCardImage(idCard, fieldSide) {
   const cardImage = document.createElement("img");
   cardImage.setAttribute("height", "100px");
-  cardImage.setAttribute("src", "../../assets/images/icons/card-back.png");
+  cardImage.setAttribute("src", "./src/assets/image/icons/card-back.png");
   cardImage.setAttribute("data-id", idCard);
   cardImage.classList.add("card");
 
@@ -175,7 +175,7 @@ async function resetDuel() {
   init();
 }
 async function playAudio(status) {
-  const audio = new Audio(`../midia/audios/${status}.wav`);
+  const audio = new Audio(`./src/assets/midia/audios/${status}.wav`);
   audio.play();
 }
 
