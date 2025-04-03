@@ -138,7 +138,7 @@ index.html            # Ponto de entrada principal
 
 1. Clone o repositório do duelo:
 ```bash
-git clone https://github.com/seu-usuario/yugioh-jokenpo.git
+git clone https://github.com/DanAntunes/yu-gi-oh-jo-ke-po-web-game
 ```
 
 2. Entre no portal mágico:
