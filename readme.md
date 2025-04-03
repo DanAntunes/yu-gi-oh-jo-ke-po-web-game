@@ -6,9 +6,9 @@
 
 **Prepare-se para um duelo digital como nenhum outro!** Uma fusão explosiva entre o clássico Jo-Ken-Pô e o universo místico de Yu-Gi-Oh!, onde cartas lendárias decidem o destino do combate!
 
-[![Jogue Agora](https://img.shields.io/badge/JOGUE_AGORA-%23FF0000?style=for-the-badge&logo=firefox&logoColor=white)]() <!-- Substitua pelo link real -->
+[![Jogue Agora](https://img.shields.io/badge/JOGUE_AGORA-%23FF0000?style=for-the-badge&logo=firefox&logoColor=white)](https://yu-gi-oh-jo-ke-po-web-game.vercel.app) <!-- Substitua pelo link real -->
 
-![Captura de Tela do Jogo](https://via.placeholder.com/800x400.png?text=Captura+do+Duelo+Yu-Gi-Oh+Jo-Ke-Po) <!-- Adicione uma imagem real posteriormente -->
+![Captura de Tela do Jogo](./src/assets/image/demo/demo_game.gif) <!-- Adicione uma imagem real posteriormente -->
 
 ## 🎮 Features Explosivas
 
