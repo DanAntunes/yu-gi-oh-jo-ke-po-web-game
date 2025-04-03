@@ -97,9 +97,10 @@ src/
 │   ├── scripts/
 │   │   └── engine.js       # Core game logic
 │   └── styles/
-│       ├── components/     # CSS modularizado
-│       └── main.css        # Estilos globais
-index.html                  # Ponto de entrada principal
+│       ├── components/ # CSS modularizado
+│       ├── styles/    # Estilos globais
+│       └── styles.css        
+index.html            # Ponto de entrada principal
 ```
 
 ## 🛠️ Tech Stack Mágica
